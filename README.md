@@ -13,14 +13,11 @@ This project combines three images—a model wearing a piece of apparel, the pro
 
 ## Improvements & To-Dos 🚀
 
-- **TypeScript Integration**: Convert the JavaScript code to TypeScript for better type safety and enhanced IDE support. 🧑‍💻
 - **Error Handling**: Improve error handling for missing or invalid image inputs. ⚠️
 - **Support for Multiple Image Formats**: Expand support for more image formats (e.g., TIFF, BMP) beyond PNG and JPG. 📁
 - **Customizable Text & Logo Positioning**: Allow dynamic positioning of the text and logo based on user input. 🖼️
 - **Asynchronous Optimizations**: Refactor the image processing pipeline to handle images asynchronously for better performance, especially for large files. ⏱️
 - **Logging**: Enhance logging to provide more detailed feedback during processing. 📊
-- **Cloud Integration**: Enable uploading of the final image to cloud storage (e.g., AWS S3, Google Cloud Storage). ☁️
-
 ## Requirements ⚙️
 
 - Node.js (v14+)
@@ -32,7 +29,7 @@ This project combines three images—a model wearing a piece of apparel, the pro
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/insta-image-creator.git
+   git clone https://github.com/patrik-svensson/insta-image-creator.git
    cd insta-image-creator
    ```
 
@@ -59,7 +56,7 @@ const OUTPUT_PATH = 'path/to/output-image.jpg';
 Then, run the script to generate the final image:
 
 ```bash
-node createInstaImage.js
+npm start
 ```
 
 The script will generate a square Instagram-ready image with the model, product, and logo combined, and save it to the `OUTPUT_PATH`.
