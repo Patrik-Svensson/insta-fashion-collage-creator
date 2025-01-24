@@ -6,7 +6,7 @@ import { cropImage } from "./center-image"
 interface RGBColor {
   r: number;
   g: number;
-  b: number;
+  b: number; 
 }
 
 const createTextImage = async (text: string, width: number, height: number, backgroundColor: RGBColor): Promise<Buffer> => {

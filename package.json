@@ -12,7 +12,6 @@
   "description": "",
   "dependencies": {
     "@google-cloud/vision": "^4.3.2",
-    "canvas": "^2.11.2",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
