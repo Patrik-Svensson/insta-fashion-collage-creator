@@ -3,6 +3,8 @@
 
 This project combines three images—a model wearing a piece of apparel, the product image, and a store logo—to create an engaging Instagram-friendly image. The model image is cropped and aligned, the product image is resized and padded, and the store logo is placed on the final composition to create a visually appealing square image perfect for Instagram posts.
 
+![Showcase](images/example-documentation.png)
+
 ## Features 🌟
 
 - **Model Image Cropping**: The model image is automatically centered and cropped to focus on the person. 🧑‍🤝‍🧑
