@@ -58,6 +58,7 @@ const OUTPUT_PATH = 'path/to/output-image.jpg';
 Then, run the script to generate the final image:
 
 ```bash
+tsc
 npm start
 ```
 
