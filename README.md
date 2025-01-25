@@ -63,17 +63,3 @@ npm start
 
 The script will generate a square Instagram-ready image with the model, product, and logo combined, and save it to the `OUTPUT_PATH`.
 
-## Code Walkthrough 🧐
-
-1. **createTextImage**: Creates a text image for the product name, ensuring it fits well in the design.
-2. **getAverageColor**: Samples the color of the top part of the product image to ensure the background of the product is cohesive.
-3. **combineImages**: This function takes care of the entire process—cropping the model image, resizing the product image, placing the store logo, and adding text. It creates a final square image ready for Instagram.
-4. **cropImage**: Uses Google Cloud Vision API to detect the person in the model image and crop it to focus on the person.
-
-## Example 🖼️
-
-Here is an example of how the generated image will look:
-
-- A model wearing the product on the left
-- The product image displayed on the right
-- The store’s logo placed above the product with the product name as a text overlay
